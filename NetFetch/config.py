@@ -1,7 +1,7 @@
 # Copyright (c) 2015 Tim Savannah GPLv3 + attribution clause. See LICENSE for more information.
 
 try:
-    from ConfigParser import ConfigParser, NoSectionError
+    from configparser import ConfigParser, NoSectionError
 except ImportError:
     from configparser import ConfigParser, NoSectionError
 
